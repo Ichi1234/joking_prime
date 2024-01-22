@@ -1,4 +1,4 @@
-def c_plus(number, variable_text):
+def c_plus(number= 10, variable_text= "number"):
     print("{")
     for i in range(number + 1):
 
@@ -13,7 +13,7 @@ def c_plus(number, variable_text):
     print("}")
 
 
-def python(number, variable_text):
+def python(number= 10, variable_text= "number"):
     for i in range(number + 1):
 
         print(f"    if {variable_text}r == " + str(i) + ":")
