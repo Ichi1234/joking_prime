@@ -1,10 +1,11 @@
 # joking_prime
-### My code use to create a program that checks whether a given number is a prime number or not. In dumb way.
-### This code is use for joke only don't be serious. Current version can create Python and C++ just input How many number you want to loop 
+#### My code use to create a program that checks whether a given number is a prime number or not. In dumb way.
+#### This code is use for joke only don't be serious. Current version can create Python and C++ just input How many number you want to loop 
 
-# This is the example of my code
+<br/>
 
-## 
+# This is the example of my output.
+
      {
         if (number == 0)
             return false;
