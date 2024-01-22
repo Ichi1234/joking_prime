@@ -1,20 +1,22 @@
-def c_plus(number):
+def c_plus(number, variable_text):
     print("{")
     for i in range(number + 1):
 
-        print("    if (number == " + str(i) + ")")
+        print(f"    if ({variable_text} == " + str(i) + ") {")
         if is_prime(i):
             print("        return true;")
+
         else:
             print("        return false;")
 
+        print("    }")
     print("}")
 
 
-def python(number):
+def python(number, variable_text):
     for i in range(number + 1):
 
-        print("    if number == " + str(i) + ":")
+        print(f"    if {variable_text}r == " + str(i) + ":")
         if is_prime(i):
             print("        return True")
         else:
@@ -33,7 +35,12 @@ def is_prime(p):
     return True
 
 
+variable_name = input("Input your variable name: ")
 
-num = int(input("How many number you want "))
-# c_plus(num)
-python(num)
+if any(char.isdigit() for char in variable_name):
+    raise ValueError("Name should be a string without numeric characters.")
+
+num = int(input("How many number you want: "))
+
+c_plus(num, variable_name)
+# python(num, variable_name)
