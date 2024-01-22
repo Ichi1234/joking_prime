@@ -4,7 +4,8 @@
 
 # This is the example of my code
 
-##   {
+## 
+     {
         if (number == 0)
             return false;
         if (number == 1)
