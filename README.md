@@ -1,6 +1,7 @@
 # joking_prime
 #### My code use to create a program that checks whether a given number is a prime number or not. In dumb way.
-#### This code is use for joke only don't be serious. Current version can create Python and C++ just input How many number you want to loop 
+#### This code is use for joke only don't be serious. Current version can create Python and C++ 
+#### When you click run program will ask you what is your variable_name default value is number next it will ask to input How many number you want to loop default is 10 
 
 <br/>
 
